@@ -16,10 +16,10 @@ map("n", "<leader>q", ":qa!<CR>", {})
 -- Fast saving with <leader> and s
 map("n", "<leader>s", ":w<CR>", {})
 -- Move around splits
-map("n", "<leader>wh", "<C-w>h", { desc = "switch window left" })
-map("n", "<leader>wj", "<C-w>j", { desc = "switch window right" })
-map("n", "<leader>wk", "<C-w>k", { desc = "switch window up" })
-map("n", "<leader>wl", "<C-w>l", { desc = "switch window down" })
+map("n", "<leader>h", "<C-w>h", { desc = "switch window left" })
+map("n", "<leader>l", "<C-w>l", { desc = "switch window right" })
+map("n", "<leader>k", "<C-w>k", { desc = "switch window up" })
+map("n", "<leader>j", "<C-w>j", { desc = "switch window down" })
 
 -- Reload configuration without restart nvim
 map("n", "<leader>r", ":source $MYVIMRC<CR>", { desc = "Reload configuration without restart nvim" })
